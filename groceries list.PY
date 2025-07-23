@@ -2,11 +2,12 @@ print("--MENU--")
 print("APPLE")
 print("ORANGE")
 print("PINEAPPLE")
-print(int(input("Enter friut:")))
-total=0
 
-for menu in range(1,3):
-    total=+1
+
+total=0
+while True:
+    print("MENU")
+    menu=(int(input("Enter friut:")))
     if menu==1:
         print("APPLE",12000)
         total+=12000
